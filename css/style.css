@@ -20,8 +20,12 @@ html,body{
 }
 .header{
     background-image: url("../img/banner.png");
-    width: 1600px;
-    height: 900px;
+    position:fixed;
+    z-index: -1;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height:100%;
 }
 .banner-txt-container{
     background-image: url("../img/background-yeloww.png");
