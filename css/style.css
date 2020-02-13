@@ -3,4 +3,93 @@ html,body{
 }
 .container{
     margin-left: 0px!important;
+    padding-left: 0px;
+}
+.banner{
+    width: 1600px;
+    height: auto;
+}
+.banner-txt{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    text-decoration: blink;
+    border: #707070;
+    border-radius: 10%;
+    align-self: center;
+    margin: 10px;
+}
+.header{
+    background-image: url("../img/banner.png");
+    width: 1600px;
+    height: 900px;
+}
+.banner-txt-container{
+    background-image: url("../img/background-yeloww.png");
+    display: inline-table;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.banner-txt-container-2{
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 55px;
+}
+.banner-title{
+    margin-left: 20%;
+    font-size: 140px;
+    color: white;
+}
+.banner-btn-container{
+     background-image: url("../img/button-background.png");
+     display: inline-block;
+     background-size: 100% 100%;
+     width: 250px;
+     height: 60px;
+     margin-left: 20%;
+     margin-top: 5%;
+ }
+.banner-btn-container2{
+    background-image: url("../img/whait-background.png");
+    display: inline-block;
+    background-size: 100% 100%;
+    width: 250px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.banner-btn{
+    color: black;
+    text-decoration: none;
+}
+.banner-btn:hover{
+    color: black;
+    text-decoration: none;
+}
+.banner-btn{
+    margin-top: 12px;
+    margin-left: 28px;
+    font-size: 24px;
+    display: flex;
+    align-self: center;
+}
+.banner-btn2{
+    margin-top: 12px;
+    margin-left: 45px;
+    font-size: 24px;
+    display: flex;
+    align-self: center;
+    color:white;
+}
+.href,.href:hover{
+    color: white;
+    text-decoration: none;
+}
+.href2,.href2:hover{
+     color: black;
+     text-decoration: none;
+ }
+.mountens{
+    background-image: url("../img/background-image.png");
+    margin-top: -125px;
 }
