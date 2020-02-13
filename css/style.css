@@ -6,18 +6,17 @@ html,body{
     padding-left: 0px;
 }
 .banner{
-    width: 1600px;
-    height: auto;
+    width: 100%;
 }
 .banner-txt{
     display: flex;
-    font-family: 'Open Sans', sans-serif;
     font-size: 23px;
     text-decoration: blink;
     border: #707070;
     border-radius: 10%;
     align-self: center;
     margin: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
     background-image: url("../img/banner.png");
@@ -34,11 +33,13 @@ html,body{
     margin-top: 2%;
     margin-left: 15%;
     font-size: 55px;
+    font-family: 'Roboto', sans-serif;
 }
 .banner-title{
     margin-left: 20%;
     font-size: 140px;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .banner-btn-container{
      background-image: url("../img/button-background.png");
@@ -72,6 +73,7 @@ html,body{
     font-size: 24px;
     display: flex;
     align-self: center;
+    font-family: 'Roboto', sans-serif;
 }
 .banner-btn2{
     margin-top: 12px;
@@ -80,6 +82,7 @@ html,body{
     display: flex;
     align-self: center;
     color:white;
+    font-family: 'Roboto', sans-serif;
 }
 .href,.href:hover{
     color: white;
@@ -92,4 +95,7 @@ html,body{
 .mountens{
     background-image: url("../img/background-image.png");
     margin-top: -125px;
+}
+.background-mountens{
+    background-image: url("../img/backgroun-mountens.png");
 }
